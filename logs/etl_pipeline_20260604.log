@@ -1,0 +1,221 @@
+2026-06-04 11:45:11 | INFO     | etl_pipeline | Mode: SYNTHETIC
+2026-06-04 11:45:11 | INFO     | etl_pipeline | SQLite schema initialised: /Users/tokalapranav/Desktop/bluestock_mf_capstone/datasets/db/bluestock_mf.db
+2026-06-04 11:45:12 | INFO     | etl_pipeline | ETL Pipeline initialised  [source=synthetic, funds=19]
+2026-06-04 11:45:12 | INFO     | etl_pipeline | ============================================================
+2026-06-04 11:45:12 | INFO     | etl_pipeline | ETL PIPELINE START  2026-06-04T11:45:12.000586
+2026-06-04 11:45:12 | INFO     | etl_pipeline | ============================================================
+2026-06-04 11:45:12 | INFO     | etl_pipeline | fund_master loaded: 19 funds
+2026-06-04 11:45:12 | INFO     | etl_pipeline | Loading 10 benchmark series
+2026-06-04 11:45:12 | INFO     | etl_pipeline | benchmark_nav loaded: 1305 rows for Nifty 100 TRI
+2026-06-04 11:45:12 | INFO     | etl_pipeline | benchmark_nav loaded: 1305 rows for BSE 100 TRI
+2026-06-04 11:45:12 | INFO     | etl_pipeline | benchmark_nav loaded: 1305 rows for Nifty Midcap 150 TRI
+2026-06-04 11:45:12 | INFO     | etl_pipeline | benchmark_nav loaded: 1305 rows for Nifty Smallcap 250 TRI
+2026-06-04 11:45:12 | INFO     | etl_pipeline | benchmark_nav loaded: 1305 rows for Nifty 500 TRI
+2026-06-04 11:45:12 | INFO     | etl_pipeline | benchmark_nav loaded: 1305 rows for CRISIL Short Term Bond TRI
+2026-06-04 11:45:12 | INFO     | etl_pipeline | benchmark_nav loaded: 1305 rows for CRISIL Corporate Bond Composite TRI
+2026-06-04 11:45:12 | INFO     | etl_pipeline | benchmark_nav loaded: 1305 rows for Nifty 50 Hybrid Composite Debt 65:35 TRI
+2026-06-04 11:45:12 | INFO     | etl_pipeline | benchmark_nav loaded: 1305 rows for Nifty 50 TRI
+2026-06-04 11:45:12 | INFO     | etl_pipeline | benchmark_nav loaded: 1305 rows for Nifty Liquid Index
+2026-06-04 11:45:12 | INFO     | etl_pipeline | Combined CSV saved: benchmark_nav.csv (13050 rows, 3 cols)
+2026-06-04 11:45:12 | INFO     | etl_pipeline | [1/19] Processing: Mirae Asset Large Cap Fund - Regular Plan - Growth (120503)
+2026-06-04 11:45:12 | DEBUG    | etl_pipeline | Generating synthetic NAV for scheme_code=120503
+2026-06-04 11:45:12 | DEBUG    | etl_pipeline | Raw CSV saved: nav_raw_120503.csv (1305 rows)
+2026-06-04 11:45:12 | DEBUG    | etl_pipeline | Processed CSV saved: nav_processed_120503.csv (1305 rows)
+2026-06-04 11:45:12 | DEBUG    | etl_pipeline | nav_history: 1305 rows inserted for scheme 120503
+2026-06-04 11:45:12 | INFO     | etl_pipeline | [2/19] Processing: Axis Bluechip Fund - Regular Plan - Growth (100033)
+2026-06-04 11:45:12 | DEBUG    | etl_pipeline | Generating synthetic NAV for scheme_code=100033
+2026-06-04 11:45:12 | DEBUG    | etl_pipeline | Raw CSV saved: nav_raw_100033.csv (1305 rows)
+2026-06-04 11:45:12 | DEBUG    | etl_pipeline | Processed CSV saved: nav_processed_100033.csv (1305 rows)
+2026-06-04 11:45:12 | DEBUG    | etl_pipeline | nav_history: 1305 rows inserted for scheme 100033
+2026-06-04 11:45:12 | INFO     | etl_pipeline | [3/19] Processing: HDFC Top 100 Fund - Regular Plan - Growth (101206)
+2026-06-04 11:45:12 | DEBUG    | etl_pipeline | Generating synthetic NAV for scheme_code=101206
+2026-06-04 11:45:12 | DEBUG    | etl_pipeline | Raw CSV saved: nav_raw_101206.csv (1305 rows)
+2026-06-04 11:45:12 | DEBUG    | etl_pipeline | Processed CSV saved: nav_processed_101206.csv (1305 rows)
+2026-06-04 11:45:12 | DEBUG    | etl_pipeline | nav_history: 1305 rows inserted for scheme 101206
+2026-06-04 11:45:12 | INFO     | etl_pipeline | [4/19] Processing: Kotak Emerging Equity Fund - Regular Plan - Growth (118989)
+2026-06-04 11:45:12 | DEBUG    | etl_pipeline | Generating synthetic NAV for scheme_code=118989
+2026-06-04 11:45:12 | DEBUG    | etl_pipeline | Raw CSV saved: nav_raw_118989.csv (1305 rows)
+2026-06-04 11:45:12 | DEBUG    | etl_pipeline | Processed CSV saved: nav_processed_118989.csv (1305 rows)
+2026-06-04 11:45:12 | DEBUG    | etl_pipeline | nav_history: 1305 rows inserted for scheme 118989
+2026-06-04 11:45:12 | INFO     | etl_pipeline | [5/19] Processing: Axis Midcap Fund - Regular Plan - Growth (120465)
+2026-06-04 11:45:12 | DEBUG    | etl_pipeline | Generating synthetic NAV for scheme_code=120465
+2026-06-04 11:45:12 | DEBUG    | etl_pipeline | Raw CSV saved: nav_raw_120465.csv (1305 rows)
+2026-06-04 11:45:12 | DEBUG    | etl_pipeline | Processed CSV saved: nav_processed_120465.csv (1305 rows)
+2026-06-04 11:45:12 | DEBUG    | etl_pipeline | nav_history: 1305 rows inserted for scheme 120465
+2026-06-04 11:45:12 | INFO     | etl_pipeline | [6/19] Processing: HDFC Mid-Cap Opportunities Fund - Regular Plan - G (100270)
+2026-06-04 11:45:12 | DEBUG    | etl_pipeline | Generating synthetic NAV for scheme_code=100270
+2026-06-04 11:45:12 | DEBUG    | etl_pipeline | Raw CSV saved: nav_raw_100270.csv (1305 rows)
+2026-06-04 11:45:12 | DEBUG    | etl_pipeline | Processed CSV saved: nav_processed_100270.csv (1305 rows)
+2026-06-04 11:45:12 | DEBUG    | etl_pipeline | nav_history: 1305 rows inserted for scheme 100270
+2026-06-04 11:45:12 | INFO     | etl_pipeline | [7/19] Processing: Axis Small Cap Fund - Regular Plan - Growth (125497)
+2026-06-04 11:45:12 | DEBUG    | etl_pipeline | Generating synthetic NAV for scheme_code=125497
+2026-06-04 11:45:12 | DEBUG    | etl_pipeline | Raw CSV saved: nav_raw_125497.csv (1305 rows)
+2026-06-04 11:45:12 | DEBUG    | etl_pipeline | Processed CSV saved: nav_processed_125497.csv (1305 rows)
+2026-06-04 11:45:12 | DEBUG    | etl_pipeline | nav_history: 1305 rows inserted for scheme 125497
+2026-06-04 11:45:12 | INFO     | etl_pipeline | [8/19] Processing: SBI Small Cap Fund - Regular Plan - Growth (120828)
+2026-06-04 11:45:12 | DEBUG    | etl_pipeline | Generating synthetic NAV for scheme_code=120828
+2026-06-04 11:45:12 | DEBUG    | etl_pipeline | Raw CSV saved: nav_raw_120828.csv (1305 rows)
+2026-06-04 11:45:12 | DEBUG    | etl_pipeline | Processed CSV saved: nav_processed_120828.csv (1305 rows)
+2026-06-04 11:45:12 | DEBUG    | etl_pipeline | nav_history: 1305 rows inserted for scheme 120828
+2026-06-04 11:45:12 | INFO     | etl_pipeline | [9/19] Processing: Parag Parikh Flexi Cap Fund - Regular Plan - Growt (120586)
+2026-06-04 11:45:12 | DEBUG    | etl_pipeline | Generating synthetic NAV for scheme_code=120586
+2026-06-04 11:45:12 | DEBUG    | etl_pipeline | Raw CSV saved: nav_raw_120586.csv (1305 rows)
+2026-06-04 11:45:12 | DEBUG    | etl_pipeline | Processed CSV saved: nav_processed_120586.csv (1305 rows)
+2026-06-04 11:45:12 | DEBUG    | etl_pipeline | nav_history: 1305 rows inserted for scheme 120586
+2026-06-04 11:45:12 | INFO     | etl_pipeline | [10/19] Processing: ICICI Prudential Flexicap Fund - Growth (100119)
+2026-06-04 11:45:12 | DEBUG    | etl_pipeline | Generating synthetic NAV for scheme_code=100119
+2026-06-04 11:45:12 | DEBUG    | etl_pipeline | Raw CSV saved: nav_raw_100119.csv (1305 rows)
+2026-06-04 11:45:12 | DEBUG    | etl_pipeline | Processed CSV saved: nav_processed_100119.csv (1305 rows)
+2026-06-04 11:45:12 | DEBUG    | etl_pipeline | nav_history: 1305 rows inserted for scheme 100119
+2026-06-04 11:45:12 | INFO     | etl_pipeline | [11/19] Processing: Axis Long Term Equity Fund - Regular Plan - Growth (100425)
+2026-06-04 11:45:12 | DEBUG    | etl_pipeline | Generating synthetic NAV for scheme_code=100425
+2026-06-04 11:45:12 | DEBUG    | etl_pipeline | Raw CSV saved: nav_raw_100425.csv (1305 rows)
+2026-06-04 11:45:12 | DEBUG    | etl_pipeline | Processed CSV saved: nav_processed_100425.csv (1305 rows)
+2026-06-04 11:45:12 | DEBUG    | etl_pipeline | nav_history: 1305 rows inserted for scheme 100425
+2026-06-04 11:45:12 | INFO     | etl_pipeline | [12/19] Processing: HDFC Short Term Debt Fund - Regular Plan - Growth (119551)
+2026-06-04 11:45:12 | DEBUG    | etl_pipeline | Generating synthetic NAV for scheme_code=119551
+2026-06-04 11:45:12 | DEBUG    | etl_pipeline | Raw CSV saved: nav_raw_119551.csv (1305 rows)
+2026-06-04 11:45:12 | DEBUG    | etl_pipeline | Processed CSV saved: nav_processed_119551.csv (1305 rows)
+2026-06-04 11:45:12 | DEBUG    | etl_pipeline | nav_history: 1305 rows inserted for scheme 119551
+2026-06-04 11:45:12 | INFO     | etl_pipeline | [13/19] Processing: ICICI Prudential Corporate Bond Fund - Growth (100024)
+2026-06-04 11:45:12 | DEBUG    | etl_pipeline | Generating synthetic NAV for scheme_code=100024
+2026-06-04 11:45:12 | DEBUG    | etl_pipeline | Raw CSV saved: nav_raw_100024.csv (1305 rows)
+2026-06-04 11:45:12 | DEBUG    | etl_pipeline | Processed CSV saved: nav_processed_100024.csv (1305 rows)
+2026-06-04 11:45:12 | DEBUG    | etl_pipeline | nav_history: 1305 rows inserted for scheme 100024
+2026-06-04 11:45:12 | INFO     | etl_pipeline | [14/19] Processing: HDFC Balanced Advantage Fund - Regular Plan - Grow (101539)
+2026-06-04 11:45:12 | DEBUG    | etl_pipeline | Generating synthetic NAV for scheme_code=101539
+2026-06-04 11:45:12 | DEBUG    | etl_pipeline | Raw CSV saved: nav_raw_101539.csv (1305 rows)
+2026-06-04 11:45:12 | DEBUG    | etl_pipeline | Processed CSV saved: nav_processed_101539.csv (1305 rows)
+2026-06-04 11:45:12 | DEBUG    | etl_pipeline | nav_history: 1305 rows inserted for scheme 101539
+2026-06-04 11:45:12 | INFO     | etl_pipeline | [15/19] Processing: ICICI Prudential Equity & Debt Fund - Growth (118701)
+2026-06-04 11:45:12 | DEBUG    | etl_pipeline | Generating synthetic NAV for scheme_code=118701
+2026-06-04 11:45:12 | DEBUG    | etl_pipeline | Raw CSV saved: nav_raw_118701.csv (1305 rows)
+2026-06-04 11:45:12 | DEBUG    | etl_pipeline | Processed CSV saved: nav_processed_118701.csv (1305 rows)
+2026-06-04 11:45:12 | DEBUG    | etl_pipeline | nav_history: 1305 rows inserted for scheme 118701
+2026-06-04 11:45:12 | INFO     | etl_pipeline | [16/19] Processing: UTI Nifty Index Fund - Regular Plan - Growth (120716)
+2026-06-04 11:45:12 | DEBUG    | etl_pipeline | Generating synthetic NAV for scheme_code=120716
+2026-06-04 11:45:12 | DEBUG    | etl_pipeline | Raw CSV saved: nav_raw_120716.csv (1305 rows)
+2026-06-04 11:45:12 | DEBUG    | etl_pipeline | Processed CSV saved: nav_processed_120716.csv (1305 rows)
+2026-06-04 11:45:12 | DEBUG    | etl_pipeline | nav_history: 1305 rows inserted for scheme 120716
+2026-06-04 11:45:12 | INFO     | etl_pipeline | [17/19] Processing: HDFC Index Fund - Nifty 50 Plan - Regular Plan (120684)
+2026-06-04 11:45:12 | DEBUG    | etl_pipeline | Generating synthetic NAV for scheme_code=120684
+2026-06-04 11:45:12 | DEBUG    | etl_pipeline | Raw CSV saved: nav_raw_120684.csv (1305 rows)
+2026-06-04 11:45:12 | DEBUG    | etl_pipeline | Processed CSV saved: nav_processed_120684.csv (1305 rows)
+2026-06-04 11:45:12 | DEBUG    | etl_pipeline | nav_history: 1305 rows inserted for scheme 120684
+2026-06-04 11:45:12 | INFO     | etl_pipeline | [18/19] Processing: Mirae Asset Cash Management Fund - Regular Plan -  (101305)
+2026-06-04 11:45:12 | DEBUG    | etl_pipeline | Generating synthetic NAV for scheme_code=101305
+2026-06-04 11:45:12 | DEBUG    | etl_pipeline | Raw CSV saved: nav_raw_101305.csv (1305 rows)
+2026-06-04 11:45:12 | DEBUG    | etl_pipeline | Processed CSV saved: nav_processed_101305.csv (1305 rows)
+2026-06-04 11:45:12 | DEBUG    | etl_pipeline | nav_history: 1305 rows inserted for scheme 101305
+2026-06-04 11:45:12 | INFO     | etl_pipeline | [19/19] Processing: HDFC Liquid Fund - Regular Plan - Growth (100012)
+2026-06-04 11:45:12 | DEBUG    | etl_pipeline | Generating synthetic NAV for scheme_code=100012
+2026-06-04 11:45:12 | DEBUG    | etl_pipeline | Raw CSV saved: nav_raw_100012.csv (1305 rows)
+2026-06-04 11:45:12 | DEBUG    | etl_pipeline | Processed CSV saved: nav_processed_100012.csv (1305 rows)
+2026-06-04 11:45:12 | DEBUG    | etl_pipeline | nav_history: 1305 rows inserted for scheme 100012
+2026-06-04 11:45:13 | INFO     | etl_pipeline | Combined CSV saved: nav_all_funds.csv (24795 rows, 21 cols)
+2026-06-04 11:45:13 | INFO     | etl_pipeline | Combined CSV saved: nav_all_funds_export.csv (24795 rows, 21 cols)
+2026-06-04 11:45:13 | INFO     | etl_pipeline | Combined CSV saved: analytics_ready.csv (24795 rows, 20 cols)
+2026-06-04 11:45:13 | INFO     | etl_pipeline | Quality report saved: quality_report_20260604_114513.json
+2026-06-04 11:45:13 | INFO     | etl_pipeline | ============================================================
+2026-06-04 11:45:13 | INFO     | etl_pipeline | ETL PIPELINE COMPLETE
+2026-06-04 11:45:13 | INFO     | etl_pipeline |   Funds loaded   : 19 / 19
+2026-06-04 11:45:13 | INFO     | etl_pipeline |   NAV rows loaded: 24795
+2026-06-04 11:45:13 | INFO     | etl_pipeline |   Errors         : 0
+2026-06-04 11:45:13 | INFO     | etl_pipeline | ============================================================
+2026-06-04 11:46:01 | INFO     | etl_pipeline | SQLite schema initialised: /private/var/folders/z_/ss05619n0mj7kptywdjpdd_40000gn/T/pytest-of-tokalapranav/pytest-0/test_schema_created0/test_bluestock.db
+2026-06-04 11:46:01 | INFO     | etl_pipeline | SQLite schema initialised: /private/var/folders/z_/ss05619n0mj7kptywdjpdd_40000gn/T/pytest-of-tokalapranav/pytest-0/test_fund_master_loaded0/test_bluestock.db
+2026-06-04 11:46:01 | INFO     | etl_pipeline | fund_master loaded: 19 funds
+2026-06-04 11:46:01 | INFO     | etl_pipeline | SQLite schema initialised: /private/var/folders/z_/ss05619n0mj7kptywdjpdd_40000gn/T/pytest-of-tokalapranav/pytest-0/test_nav_history_loaded0/test_bluestock.db
+2026-06-04 11:46:01 | INFO     | etl_pipeline | fund_master loaded: 19 funds
+2026-06-04 11:46:01 | DEBUG    | etl_pipeline | nav_history: 1305 rows inserted for scheme 120503
+2026-06-04 11:46:01 | INFO     | etl_pipeline | SQLite schema initialised: /private/var/folders/z_/ss05619n0mj7kptywdjpdd_40000gn/T/pytest-of-tokalapranav/pytest-0/test_nav_history_no_duplicate_0/test_bluestock.db
+2026-06-04 11:46:01 | INFO     | etl_pipeline | fund_master loaded: 19 funds
+2026-06-04 11:46:01 | DEBUG    | etl_pipeline | nav_history: 1305 rows inserted for scheme 120503
+2026-06-04 11:46:01 | DEBUG    | etl_pipeline | nav_history: 0 rows inserted for scheme 120503
+2026-06-04 11:46:01 | INFO     | etl_pipeline | SQLite schema initialised: /private/var/folders/z_/ss05619n0mj7kptywdjpdd_40000gn/T/pytest-of-tokalapranav/pytest-0/test_benchmark_nav_loaded0/test_bluestock.db
+2026-06-04 11:46:01 | INFO     | etl_pipeline | benchmark_nav loaded: 1305 rows for Nifty 50 TRI
+2026-06-04 11:46:01 | INFO     | etl_pipeline | SQLite schema initialised: /private/var/folders/z_/ss05619n0mj7kptywdjpdd_40000gn/T/pytest-of-tokalapranav/pytest-0/test_etl_run_log_entry0/test_bluestock.db
+2026-06-04 11:46:01 | INFO     | etl_pipeline | SQLite schema initialised: /Users/tokalapranav/Desktop/bluestock_mf_capstone/datasets/db/bluestock_mf.db
+2026-06-04 11:46:01 | INFO     | etl_pipeline | ETL Pipeline initialised  [source=synthetic, funds=2]
+2026-06-04 11:46:01 | INFO     | etl_pipeline | ============================================================
+2026-06-04 11:46:01 | INFO     | etl_pipeline | ETL PIPELINE START  2026-06-04T11:46:01.250630
+2026-06-04 11:46:01 | INFO     | etl_pipeline | ============================================================
+2026-06-04 11:46:01 | INFO     | etl_pipeline | fund_master loaded: 2 funds
+2026-06-04 11:46:01 | INFO     | etl_pipeline | Loading 2 benchmark series
+2026-06-04 11:46:01 | INFO     | etl_pipeline | benchmark_nav loaded: 1305 rows for Nifty 100 TRI
+2026-06-04 11:46:01 | INFO     | etl_pipeline | benchmark_nav loaded: 1305 rows for BSE 100 TRI
+2026-06-04 11:46:01 | INFO     | etl_pipeline | Combined CSV saved: benchmark_nav.csv (2610 rows, 3 cols)
+2026-06-04 11:46:01 | INFO     | etl_pipeline | [1/2] Processing: Mirae Asset Large Cap Fund - Regular Plan - Growth (120503)
+2026-06-04 11:46:01 | DEBUG    | etl_pipeline | Generating synthetic NAV for scheme_code=120503
+2026-06-04 11:46:01 | DEBUG    | etl_pipeline | Raw CSV saved: nav_raw_120503.csv (1305 rows)
+2026-06-04 11:46:01 | DEBUG    | etl_pipeline | Processed CSV saved: nav_processed_120503.csv (1305 rows)
+2026-06-04 11:46:01 | DEBUG    | etl_pipeline | nav_history: 0 rows inserted for scheme 120503
+2026-06-04 11:46:01 | INFO     | etl_pipeline | [2/2] Processing: Axis Bluechip Fund - Regular Plan - Growth (100033)
+2026-06-04 11:46:01 | DEBUG    | etl_pipeline | Generating synthetic NAV for scheme_code=100033
+2026-06-04 11:46:01 | DEBUG    | etl_pipeline | Raw CSV saved: nav_raw_100033.csv (1305 rows)
+2026-06-04 11:46:01 | DEBUG    | etl_pipeline | Processed CSV saved: nav_processed_100033.csv (1305 rows)
+2026-06-04 11:46:01 | DEBUG    | etl_pipeline | nav_history: 0 rows inserted for scheme 100033
+2026-06-04 11:46:01 | INFO     | etl_pipeline | Combined CSV saved: nav_all_funds.csv (2610 rows, 21 cols)
+2026-06-04 11:46:01 | INFO     | etl_pipeline | Combined CSV saved: nav_all_funds_export.csv (2610 rows, 21 cols)
+2026-06-04 11:46:01 | INFO     | etl_pipeline | Combined CSV saved: analytics_ready.csv (2610 rows, 20 cols)
+2026-06-04 11:46:01 | INFO     | etl_pipeline | Quality report saved: quality_report_20260604_114601.json
+2026-06-04 11:46:01 | INFO     | etl_pipeline | ============================================================
+2026-06-04 11:46:01 | INFO     | etl_pipeline | ETL PIPELINE COMPLETE
+2026-06-04 11:46:01 | INFO     | etl_pipeline |   Funds loaded   : 2 / 2
+2026-06-04 11:46:01 | INFO     | etl_pipeline |   NAV rows loaded: 0
+2026-06-04 11:46:01 | INFO     | etl_pipeline |   Errors         : 0
+2026-06-04 11:46:01 | INFO     | etl_pipeline | ============================================================
+2026-06-04 11:46:01 | INFO     | etl_pipeline | SQLite schema initialised: /Users/tokalapranav/Desktop/bluestock_mf_capstone/datasets/db/bluestock_mf.db
+2026-06-04 11:46:01 | INFO     | etl_pipeline | ETL Pipeline initialised  [source=synthetic, funds=1]
+2026-06-04 11:46:01 | INFO     | etl_pipeline | ============================================================
+2026-06-04 11:46:01 | INFO     | etl_pipeline | ETL PIPELINE START  2026-06-04T11:46:01.409178
+2026-06-04 11:46:01 | INFO     | etl_pipeline | ============================================================
+2026-06-04 11:46:01 | INFO     | etl_pipeline | fund_master loaded: 1 funds
+2026-06-04 11:46:01 | INFO     | etl_pipeline | Loading 1 benchmark series
+2026-06-04 11:46:01 | INFO     | etl_pipeline | benchmark_nav loaded: 1305 rows for Nifty 100 TRI
+2026-06-04 11:46:01 | INFO     | etl_pipeline | Combined CSV saved: benchmark_nav.csv (1305 rows, 3 cols)
+2026-06-04 11:46:01 | INFO     | etl_pipeline | [1/1] Processing: Mirae Asset Large Cap Fund - Regular Plan - Growth (120503)
+2026-06-04 11:46:01 | DEBUG    | etl_pipeline | Generating synthetic NAV for scheme_code=120503
+2026-06-04 11:46:01 | DEBUG    | etl_pipeline | Raw CSV saved: nav_raw_120503.csv (1305 rows)
+2026-06-04 11:46:01 | DEBUG    | etl_pipeline | Processed CSV saved: nav_processed_120503.csv (1305 rows)
+2026-06-04 11:46:01 | DEBUG    | etl_pipeline | nav_history: 0 rows inserted for scheme 120503
+2026-06-04 11:46:01 | INFO     | etl_pipeline | Combined CSV saved: nav_all_funds.csv (1305 rows, 21 cols)
+2026-06-04 11:46:01 | INFO     | etl_pipeline | Combined CSV saved: nav_all_funds_export.csv (1305 rows, 21 cols)
+2026-06-04 11:46:01 | INFO     | etl_pipeline | Combined CSV saved: analytics_ready.csv (1305 rows, 20 cols)
+2026-06-04 11:46:01 | INFO     | etl_pipeline | Quality report saved: quality_report_20260604_114601.json
+2026-06-04 11:46:01 | INFO     | etl_pipeline | ============================================================
+2026-06-04 11:46:01 | INFO     | etl_pipeline | ETL PIPELINE COMPLETE
+2026-06-04 11:46:01 | INFO     | etl_pipeline |   Funds loaded   : 1 / 1
+2026-06-04 11:46:01 | INFO     | etl_pipeline |   NAV rows loaded: 0
+2026-06-04 11:46:01 | INFO     | etl_pipeline |   Errors         : 0
+2026-06-04 11:46:01 | INFO     | etl_pipeline | ============================================================
+2026-06-04 11:46:01 | INFO     | etl_pipeline | SQLite schema initialised: /Users/tokalapranav/Desktop/bluestock_mf_capstone/datasets/db/bluestock_mf.db
+2026-06-04 11:46:01 | INFO     | etl_pipeline | ETL Pipeline initialised  [source=synthetic, funds=2]
+2026-06-04 11:46:01 | INFO     | etl_pipeline | ============================================================
+2026-06-04 11:46:01 | INFO     | etl_pipeline | ETL PIPELINE START  2026-06-04T11:46:01.491363
+2026-06-04 11:46:01 | INFO     | etl_pipeline | ============================================================
+2026-06-04 11:46:01 | INFO     | etl_pipeline | fund_master loaded: 2 funds
+2026-06-04 11:46:01 | INFO     | etl_pipeline | Loading 2 benchmark series
+2026-06-04 11:46:01 | INFO     | etl_pipeline | benchmark_nav loaded: 1305 rows for Nifty 100 TRI
+2026-06-04 11:46:01 | INFO     | etl_pipeline | benchmark_nav loaded: 1305 rows for BSE 100 TRI
+2026-06-04 11:46:01 | INFO     | etl_pipeline | Combined CSV saved: benchmark_nav.csv (2610 rows, 3 cols)
+2026-06-04 11:46:01 | INFO     | etl_pipeline | [1/2] Processing: Mirae Asset Large Cap Fund - Regular Plan - Growth (120503)
+2026-06-04 11:46:01 | DEBUG    | etl_pipeline | Generating synthetic NAV for scheme_code=120503
+2026-06-04 11:46:01 | DEBUG    | etl_pipeline | Raw CSV saved: nav_raw_120503.csv (1305 rows)
+2026-06-04 11:46:01 | DEBUG    | etl_pipeline | Processed CSV saved: nav_processed_120503.csv (1305 rows)
+2026-06-04 11:46:01 | DEBUG    | etl_pipeline | nav_history: 0 rows inserted for scheme 120503
+2026-06-04 11:46:01 | INFO     | etl_pipeline | [2/2] Processing: Axis Bluechip Fund - Regular Plan - Growth (100033)
+2026-06-04 11:46:01 | DEBUG    | etl_pipeline | Generating synthetic NAV for scheme_code=100033
+2026-06-04 11:46:01 | DEBUG    | etl_pipeline | Raw CSV saved: nav_raw_100033.csv (1305 rows)
+2026-06-04 11:46:01 | DEBUG    | etl_pipeline | Processed CSV saved: nav_processed_100033.csv (1305 rows)
+2026-06-04 11:46:01 | DEBUG    | etl_pipeline | nav_history: 0 rows inserted for scheme 100033
+2026-06-04 11:46:01 | INFO     | etl_pipeline | Combined CSV saved: nav_all_funds.csv (2610 rows, 21 cols)
+2026-06-04 11:46:01 | INFO     | etl_pipeline | Combined CSV saved: nav_all_funds_export.csv (2610 rows, 21 cols)
+2026-06-04 11:46:01 | INFO     | etl_pipeline | Combined CSV saved: analytics_ready.csv (2610 rows, 20 cols)
+2026-06-04 11:46:01 | INFO     | etl_pipeline | Quality report saved: quality_report_20260604_114601.json
+2026-06-04 11:46:01 | INFO     | etl_pipeline | ============================================================
+2026-06-04 11:46:01 | INFO     | etl_pipeline | ETL PIPELINE COMPLETE
+2026-06-04 11:46:01 | INFO     | etl_pipeline |   Funds loaded   : 2 / 2
+2026-06-04 11:46:01 | INFO     | etl_pipeline |   NAV rows loaded: 0
+2026-06-04 11:46:01 | INFO     | etl_pipeline |   Errors         : 0
+2026-06-04 11:46:01 | INFO     | etl_pipeline | ============================================================

@@ -1,0 +1,109 @@
+2026-06-04 11:45:39,990 | INFO     | Schema initialised from schema.sql
+2026-06-04 11:45:39,993 | INFO     | ============================================================
+2026-06-04 11:45:39,993 | INFO     | CSV INGESTION PIPELINE START
+2026-06-04 11:45:39,993 | INFO     | Scanning: /Users/tokalapranav/Desktop/bluestock_mf_capstone/datasets/raw/user_csvs
+2026-06-04 11:45:39,993 | INFO     | ============================================================
+2026-06-04 11:45:39,993 | INFO     | Found 10 CSV files:
+2026-06-04 11:45:39,993 | INFO     |   01_fund_master.csv
+2026-06-04 11:45:39,993 | INFO     |   02_nav_history.csv
+2026-06-04 11:45:39,993 | INFO     |   03_aum_by_fund_house.csv
+2026-06-04 11:45:39,993 | INFO     |   04_monthly_sip_inflows.csv
+2026-06-04 11:45:39,993 | INFO     |   05_category_inflows.csv
+2026-06-04 11:45:39,993 | INFO     |   06_industry_folio_count.csv
+2026-06-04 11:45:39,993 | INFO     |   07_scheme_performance.csv
+2026-06-04 11:45:39,993 | INFO     |   08_investor_transactions.csv
+2026-06-04 11:45:39,993 | INFO     |   09_portfolio_holdings.csv
+2026-06-04 11:45:39,994 | INFO     |   10_benchmark_indices.csv
+2026-06-04 11:45:39,994 | INFO     |   01_fund_master.csv             → detected as: fund_master
+2026-06-04 11:45:39,994 | INFO     |   02_nav_history.csv             → detected as: nav_history
+2026-06-04 11:45:39,994 | INFO     |   03_aum_by_fund_house.csv       → detected as: fund_house
+2026-06-04 11:45:39,994 | INFO     |   04_monthly_sip_inflows.csv     → detected as: portfolio
+2026-06-04 11:45:39,994 | WARNING  |   05_category_inflows.csv        → UNKNOWN type (will be skipped)
+2026-06-04 11:45:39,994 | WARNING  |   06_industry_folio_count.csv    → UNKNOWN type (will be skipped)
+2026-06-04 11:45:39,994 | INFO     |   07_scheme_performance.csv      → detected as: performance
+2026-06-04 11:45:39,994 | WARNING  |   08_investor_transactions.csv   → UNKNOWN type (will be skipped)
+2026-06-04 11:45:39,994 | INFO     |   09_portfolio_holdings.csv      → detected as: portfolio
+2026-06-04 11:45:39,994 | INFO     |   10_benchmark_indices.csv       → detected as: benchmark
+2026-06-04 11:45:39,995 | INFO     | Loading fund_master: 01_fund_master.csv
+2026-06-04 11:45:39,998 | INFO     |   ✅ Loaded 40 funds
+2026-06-04 11:59:19,959 | INFO     | Schema initialised from schema.sql
+2026-06-04 11:59:19,963 | INFO     | ============================================================
+2026-06-04 11:59:19,963 | INFO     | CSV INGESTION PIPELINE START
+2026-06-04 11:59:19,963 | INFO     | Scanning: /Users/tokalapranav/Desktop/bluestock_mf_capstone/datasets/raw/user_csvs
+2026-06-04 11:59:19,963 | INFO     | ============================================================
+2026-06-04 11:59:19,964 | INFO     | Found 10 CSV files:
+2026-06-04 11:59:19,964 | INFO     |   01_fund_master.csv
+2026-06-04 11:59:19,964 | INFO     |   02_nav_history.csv
+2026-06-04 11:59:19,964 | INFO     |   03_aum_by_fund_house.csv
+2026-06-04 11:59:19,964 | INFO     |   04_monthly_sip_inflows.csv
+2026-06-04 11:59:19,964 | INFO     |   05_category_inflows.csv
+2026-06-04 11:59:19,964 | INFO     |   06_industry_folio_count.csv
+2026-06-04 11:59:19,964 | INFO     |   07_scheme_performance.csv
+2026-06-04 11:59:19,964 | INFO     |   08_investor_transactions.csv
+2026-06-04 11:59:19,964 | INFO     |   09_portfolio_holdings.csv
+2026-06-04 11:59:19,964 | INFO     |   10_benchmark_indices.csv
+2026-06-04 11:59:19,964 | INFO     |   01_fund_master.csv             → detected as: fund_master
+2026-06-04 11:59:19,964 | INFO     |   02_nav_history.csv             → detected as: nav_history
+2026-06-04 11:59:19,965 | INFO     |   03_aum_by_fund_house.csv       → detected as: fund_house
+2026-06-04 11:59:19,965 | INFO     |   04_monthly_sip_inflows.csv     → detected as: portfolio
+2026-06-04 11:59:19,965 | WARNING  |   05_category_inflows.csv        → UNKNOWN type (will be skipped)
+2026-06-04 11:59:19,965 | WARNING  |   06_industry_folio_count.csv    → UNKNOWN type (will be skipped)
+2026-06-04 11:59:19,965 | INFO     |   07_scheme_performance.csv      → detected as: performance
+2026-06-04 11:59:19,965 | WARNING  |   08_investor_transactions.csv   → UNKNOWN type (will be skipped)
+2026-06-04 11:59:19,965 | INFO     |   09_portfolio_holdings.csv      → detected as: portfolio
+2026-06-04 11:59:19,965 | INFO     |   10_benchmark_indices.csv       → detected as: benchmark
+2026-06-04 11:59:19,966 | INFO     | Loading fund_master: 01_fund_master.csv
+2026-06-04 11:59:19,972 | INFO     |   ✅ Loaded 40 funds
+2026-06-04 12:02:10,362 | INFO     | Schema initialised from schema.sql
+2026-06-04 12:02:10,365 | INFO     | ============================================================
+2026-06-04 12:02:10,365 | INFO     | CSV INGESTION PIPELINE START
+2026-06-04 12:02:10,365 | INFO     | Scanning: /Users/tokalapranav/Desktop/bluestock_mf_capstone/datasets/raw/user_csvs
+2026-06-04 12:02:10,365 | INFO     | ============================================================
+2026-06-04 12:02:10,365 | INFO     | Found 10 CSV files:
+2026-06-04 12:02:10,365 | INFO     |   01_fund_master.csv
+2026-06-04 12:02:10,365 | INFO     |   02_nav_history.csv
+2026-06-04 12:02:10,365 | INFO     |   03_aum_by_fund_house.csv
+2026-06-04 12:02:10,366 | INFO     |   04_monthly_sip_inflows.csv
+2026-06-04 12:02:10,366 | INFO     |   05_category_inflows.csv
+2026-06-04 12:02:10,366 | INFO     |   06_industry_folio_count.csv
+2026-06-04 12:02:10,366 | INFO     |   07_scheme_performance.csv
+2026-06-04 12:02:10,366 | INFO     |   08_investor_transactions.csv
+2026-06-04 12:02:10,366 | INFO     |   09_portfolio_holdings.csv
+2026-06-04 12:02:10,366 | INFO     |   10_benchmark_indices.csv
+2026-06-04 12:02:10,366 | INFO     |   01_fund_master.csv             → detected as: fund_master
+2026-06-04 12:02:10,366 | INFO     |   02_nav_history.csv             → detected as: nav_history
+2026-06-04 12:02:10,366 | INFO     |   03_aum_by_fund_house.csv       → detected as: fund_house
+2026-06-04 12:02:10,366 | INFO     |   04_monthly_sip_inflows.csv     → detected as: portfolio
+2026-06-04 12:02:10,366 | WARNING  |   05_category_inflows.csv        → UNKNOWN type (will be skipped)
+2026-06-04 12:02:10,366 | WARNING  |   06_industry_folio_count.csv    → UNKNOWN type (will be skipped)
+2026-06-04 12:02:10,366 | INFO     |   07_scheme_performance.csv      → detected as: performance
+2026-06-04 12:02:10,366 | WARNING  |   08_investor_transactions.csv   → UNKNOWN type (will be skipped)
+2026-06-04 12:02:10,366 | INFO     |   09_portfolio_holdings.csv      → detected as: portfolio
+2026-06-04 12:02:10,367 | INFO     |   10_benchmark_indices.csv       → detected as: benchmark
+2026-06-04 12:02:10,368 | INFO     | Loading fund_master: 01_fund_master.csv
+2026-06-04 12:02:10,375 | INFO     |   ✅ Loaded 40 funds
+2026-06-04 12:02:10,380 | INFO     | fund_master: 40 funds upserted
+2026-06-04 12:02:10,383 | INFO     | Fund master: 40 funds loaded
+2026-06-04 12:02:10,383 | INFO     | Loading nav_history: 02_nav_history.csv
+2026-06-04 12:02:10,401 | INFO     |   ✅ Loaded 46000 NAV rows for 40 funds
+2026-06-04 12:02:10,448 | INFO     | Total raw NAV rows: 46000
+2026-06-04 12:02:10,448 | INFO     | Running transforms...
+2026-06-04 12:02:10,448 | INFO     | Transforming 40 funds...
+2026-06-04 12:02:10,560 | INFO     |   Transformed 10 / 40 funds
+2026-06-04 12:02:10,666 | INFO     |   Transformed 20 / 40 funds
+2026-06-04 12:02:10,772 | INFO     |   Transformed 30 / 40 funds
+2026-06-04 12:02:10,880 | INFO     |   Transformed 40 / 40 funds
+2026-06-04 12:02:11,993 | INFO     | nav_history: 46000 new rows inserted
+2026-06-04 12:02:11,996 | INFO     | NAV history loaded: 46000 rows
+2026-06-04 12:02:11,996 | INFO     | Loading benchmark: 10_benchmark_indices.csv
+2026-06-04 12:02:12,001 | WARNING  | Unrecognised files (skipped):
+2026-06-04 12:02:12,001 | WARNING  |   05_category_inflows.csv  →  rename it to match a known pattern
+2026-06-04 12:02:12,001 | WARNING  |   06_industry_folio_count.csv  →  rename it to match a known pattern
+2026-06-04 12:02:12,001 | WARNING  |   08_investor_transactions.csv  →  rename it to match a known pattern
+2026-06-04 12:02:12,001 | INFO     | ============================================================
+2026-06-04 12:02:12,001 | INFO     | CSV INGESTION COMPLETE
+2026-06-04 12:02:12,001 | INFO     |   Funds loaded : 40
+2026-06-04 12:02:12,001 | INFO     |   NAV rows     : 46000
+2026-06-04 12:02:12,001 | INFO     |   Errors       : 4
+2026-06-04 12:02:12,001 | INFO     |   DB           : /Users/tokalapranav/Desktop/bluestock_mf_capstone/datasets/db/bluestock_mf.db
+2026-06-04 12:02:12,001 | INFO     | ============================================================
