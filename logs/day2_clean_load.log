@@ -43,3 +43,48 @@
 2026-06-11 22:45:54,495 | INFO     |   DB  : /Users/tokalapranav/Desktop/bluestock_mf_capstone/data/db/bluestock_mf.db
 2026-06-11 22:45:54,496 | INFO     |   CSVs: /Users/tokalapranav/Desktop/bluestock_mf_capstone/data/processed
 2026-06-11 22:45:54,496 | INFO     | ============================================================
+2026-06-25 15:20:47,324 | INFO     | ============================================================
+2026-06-25 15:20:47,324 | INFO     | DAY 2 — CLEAN & LOAD PIPELINE START
+2026-06-25 15:20:47,324 | INFO     | ============================================================
+2026-06-25 15:20:47,325 | INFO     | Cleaning fund_master...
+2026-06-25 15:20:47,335 | INFO     |   ✅ 40 funds | 10 AMCs | 12 sub-cats
+2026-06-25 15:20:47,337 | INFO     | Cleaning nav_history...
+2026-06-25 15:20:47,577 | INFO     |   ✅ 46,000 rows | 40 funds | 2022-01-03 → 2026-05-29
+2026-06-25 15:20:47,683 | INFO     | Cleaning aum_by_fund_house...
+2026-06-25 15:20:47,687 | INFO     |   ✅ 90 rows | 10 fund houses | [2022, 2023, 2024, 2025] years
+2026-06-25 15:20:47,688 | INFO     | Cleaning monthly_sip_inflows...
+2026-06-25 15:20:47,689 | INFO     |   ✅ 48 months | max SIP ₹31,002 Cr (Dec 2025)
+2026-06-25 15:20:47,690 | INFO     | Cleaning category_inflows...
+2026-06-25 15:20:47,691 | INFO     |   ✅ 144 rows | 12 categories | 2024-04-01 → 2025-03-01
+2026-06-25 15:20:47,692 | INFO     | Cleaning industry_folio_count...
+2026-06-25 15:20:47,693 | INFO     |   ✅ 21 months | 13.26 → 26.12 Cr folios
+2026-06-25 15:20:47,694 | INFO     | Cleaning scheme_performance...
+2026-06-25 15:20:47,695 | INFO     |   ✅ 40 schemes | anomaly flags=0 | expense_ratio out-of-range=0
+2026-06-25 15:20:47,696 | INFO     | Cleaning investor_transactions...
+2026-06-25 15:20:47,760 | INFO     |   ✅ 32,778 rows | types=['Lumpsum', 'Redemption', 'SIP'] | kyc=['Pending', 'Verified'] | states=12 | 2024-01-01 → 2025-05-30
+2026-06-25 15:20:47,841 | INFO     | Cleaning portfolio_holdings...
+2026-06-25 15:20:47,844 | INFO     |   ✅ 322 holdings | 34 funds | 14 sectors
+2026-06-25 15:20:47,845 | INFO     | Cleaning benchmark_indices...
+2026-06-25 15:20:47,854 | INFO     |   ✅ 8,050 rows | 7 indices | 2022-01-03 → 2026-05-29
+2026-06-25 15:20:47,868 | INFO     | Building star schema...
+2026-06-25 15:20:47,918 | INFO     |   ✅ Star schema created
+2026-06-25 15:20:47,925 | INFO     | Loading all tables into SQLite...
+2026-06-25 15:20:47,943 | INFO     |   dim_date       : 1,297 rows
+2026-06-25 15:20:47,947 | INFO     |   dim_fund       : 40 rows
+2026-06-25 15:20:48,108 | INFO     |   fact_nav       : 46,000 rows
+2026-06-25 15:20:48,349 | INFO     |   fact_transactions: 32,778 rows
+2026-06-25 15:20:48,354 | INFO     |   fact_performance : 40 rows
+2026-06-25 15:20:48,356 | INFO     |   fact_aum       : 90 rows
+2026-06-25 15:20:48,392 | INFO     |   ref tables     : sip_inflows, category_inflows, folio_count, portfolio_holdings, benchmark_indices
+2026-06-25 15:20:48,394 | INFO     | Validating row counts...
+2026-06-25 15:20:48,394 | INFO     |   ✅ dim_fund                 : 40 rows (expected ≥ 40)
+2026-06-25 15:20:48,395 | INFO     |   ✅ fact_nav                 : 46,000 rows (expected ≥ 46,000)
+2026-06-25 15:20:48,396 | INFO     |   ✅ fact_transactions        : 32,778 rows (expected ≥ 32,778)
+2026-06-25 15:20:48,396 | INFO     |   ✅ fact_performance         : 40 rows (expected ≥ 40)
+2026-06-25 15:20:48,396 | INFO     |   ✅ fact_aum                 : 90 rows (expected ≥ 90)
+2026-06-25 15:20:48,396 | INFO     |   All row counts validated ✅
+2026-06-25 15:20:48,396 | INFO     | ============================================================
+2026-06-25 15:20:48,396 | INFO     | DAY 2 COMPLETE
+2026-06-25 15:20:48,396 | INFO     |   DB  : /Users/tokalapranav/Desktop/bluestock_mf_capstone/data/db/bluestock_mf.db
+2026-06-25 15:20:48,396 | INFO     |   CSVs: /Users/tokalapranav/Desktop/bluestock_mf_capstone/data/processed
+2026-06-25 15:20:48,396 | INFO     | ============================================================
