@@ -3,18 +3,6 @@
 
 ---
 
-## Quick Start
-
-```bash
-pip install -r requirements.txt
-cp your_data/*.csv data/raw/
-python scripts/day2_clean_and_load.py
-jupyter lab notebooks/
-streamlit run scripts/day5_dashboard.py
-```
-
----
-
 ## Project Structure
 
 ```
